@@ -86,6 +86,7 @@ content:
             - Designed and led the security assessment activities required as part of the Authority to Operate process for a large scale complex Azure Hybrid Cloud deployment. 
             - Led threat detection engineering activities during a significant purple team assessment operation in collaboration with ASDs Cyber Maturity team. 
             - Designed a honeypot strategy to detect stealthy bloodhound scans, Kerberoasting and DCSync Attacks, and website cloning attacks. 
+      - layout: left
         title: Department of Prime Minister and Cabinet
         link: pmc.gov.au
         # link_text: boringcompany.com
@@ -97,6 +98,7 @@ content:
             - On more than 50 international visits I had sole responsibility for ensuring that any and all technical and communications problems were no longer problems. 
             - Took direct calls from the Prime Minister at any time of day or night and provided immediate solutions to requests spanning Level 1 helpdesk to network and systems administration tasks. 
             - Designed and implemented portable packet capture and intruder detection system capabilities based on Security Onion and PFSense that significantly enhanced the security posture of temporary overseas office setups.  
+      - layout: left
         title: Older Stuff
         link: archive.org
         # link_text: boringcompany.com
