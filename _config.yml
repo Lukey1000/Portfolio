@@ -52,25 +52,16 @@ about_content: | # this will include new lines to allow paragraphs
   I have nearly two decades of diverse IT experiences in more than 50 countries that range from solving mid-flight IT issues for the Prime Minister on his RAAF Aircraft to collaborating with ASD on purple team operations.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Certifications # Title for the section
     content:
-      - layout: top-middle
-        title: Home Sweet [Compromised] Home
-        link: github.com/lukey1000/BYOD
-        # link_text: Project Website
-        additional_links:
-          - title: Bring Your Owned Device - Kill chain walkthrough
-            icon: fab fa-github
-            url: github.com/lukey1000/BYOD/Killchain
-          - title: Research Essay
-            icon: fab fa-github
-            url: github.com/lukey1000/BYOD/Essay
-        quote: >
-          Contextualising next generation social engineering threats for a university assignment.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way of proving that 'secure' BYOD systems have a blindspot: the home of the user. 
-
+     - layout: top-middle
+       title: GIAC Experienced Incident Handler
+       link: https://www.credly.com/badges/f19d9113-0125-47c0-bacd-1016e7e5d181/public_url
+         iframe:
+         src: https://www.credly.com/badges/f19d9113-0125-47c0-bacd-1016e7e5d181/public_url
+       quote: >
+         The GIAC Experienced Incident Handler Certification (GX-IH) demonstrates a candidate’s superior incident response skills. Mastery of hands-on attacker techniques combined with incident response tools and practices validate that certification holders have the skills and knowledge to take teams to the next level.
+       
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
