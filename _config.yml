@@ -51,8 +51,6 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Luke and I'm an Infosec nerd.
   I have nearly two decades of diverse IT experiences in more than 50 countries that range from solving mid-flight IT issues for the Prime Minister on his RAAF Aircraft to collaborating with ASD on purple team operations.
 
-  I am most skilled in: <mark>Incident Handling</mark> and <mark>Customer Service</mark>
-
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -78,16 +76,40 @@ content:
     content:
       - layout: left
         title: Federal Government
-        link: imnottelling.gov.au
+        link: .gov.au
         # link_text: boringcompany.com
         sub_title: Information Security Officer
         caption: October 2022 - Present
         quote: >
           Ensuring that the departments people, processes, and technology are defensible.
         description: | # this will include new lines to allow paragraphs
-            - Designed and led the security assessment activities required as part of the Authority to Operate process in line with NIST 800-37 and the ISM for a complex large scale Azure cloud project. Built rapport with stakeholders such as cloud engineers, project managers, and IT management to foster a collaborative project mindset, and modularised security testing to ensure that the highest and most urgent risks were tested and treated first. The project received ATO for production without security ever being the bottleneck to progress. 
-            - Led threat detection engineering activities during a significant purple team assessment operation in collaboration with ASDs Cyber Maturity team, recording all malicious activities in a super timeline and ensuring that all findings were mitigated, preventable or detectable. This was achieved with a combination of <mark>Sentinel</mark>/Defender KQL queries, and converting Sigma and Yara rules for ArcSight ESM compatibility. 
-            - Deployed custom honeypots to detect stealthy bloodhound scans, Kerberoasting and DCSync Attacks, and popular windows privilege escalation scripts and techniques such as PowerUp, and designed future strategies for the implementation of canaries. 
+            - Designed and led the security assessment activities required as part of the Authority to Operate process for a large scale complex Azure Hybrid Cloud deployment. 
+            - Led threat detection engineering activities during a significant purple team assessment operation in collaboration with ASDs Cyber Maturity team. 
+            - Designed a honeypot strategy to detect stealthy bloodhound scans, Kerberoasting and DCSync Attacks, and website cloning attacks. 
+       
+        title: Department of Prime Minister and Cabinet
+        link: pmc.gov.au
+        # link_text: boringcompany.com
+        sub_title: VIP IT Support Advisor to the Prime Minister's Office
+        caption: September 2013 - October 2022
+        quote: >
+          From Micronesia to Manhattan, I travelled the world with the Prime Minister's Office.
+        description: | # this will include new lines to allow paragraphs
+            - On more than 50 international visits I had sole responsibility for ensuring that any and all technical and communications problems were no longer problems. 
+            - Took direct calls from the Prime Minister at any time of day or night and provided immediate solutions to requests spanning Level 1 helpdesk to network and systems administration tasks. 
+            - Designed and implemented portable packet capture and intruder detection system capabilities based on Security Onion and PFSense that significantly enhanced the security posture of temporary overseas office setups.  
+
+title: Older Stuff
+        link: archive.org
+        # link_text: boringcompany.com
+        sub_title: Service Desk Analyst > Desktop Support > System Administrator
+        caption: November 2007 - September 2013
+        quote: >
+          Worked my way from Service Desk to Sysadmin across multiple companies at the start of my career.
+        description: | # this will include new lines to allow paragraphs
+            - Upgraded the Canberra Hospital from Windows 2000 to XP.
+            - System Administrator for Lockheed Martin Australia at the ATO. 
+            - Became a superstar at talking nontechnical staff through phone based troubleshooting.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
