@@ -9,7 +9,6 @@ version: 2
 name: Luke Brown
 title: Information Security Officer
 email: lukeandrewbrown@gmail.com
-git: https://lukey1000.github.io/Portfolio/index.html
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -57,10 +56,9 @@ content:
      - layout: top-middle
        title: GIAC Experienced Incident Handler
        link: https://www.credly.com/badges/f19d9113-0125-47c0-bacd-1016e7e5d181/public_url
-         iframe:
-         src: https://www.credly.com/badges/f19d9113-0125-47c0-bacd-1016e7e5d181/public_url
+       gxih_image: images/gxih.png
        quote: >
-         The GIAC Experienced Incident Handler Certification (GX-IH) demonstrates a candidate’s superior incident response skills. Mastery of hands-on attacker techniques combined with incident response tools and practices validate that certification holders have the skills and knowledge to take teams to the next level.
+         The GIAC Experienced Incident Handler Certification (GX-IH) demonstrates a candidates superior incident response skills.
        
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
