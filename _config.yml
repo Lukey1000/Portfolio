@@ -48,7 +48,8 @@ linkedin_username: luke-brown-0567181b1
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Luke and I'm an Infosec nerd with nearly two decades of diverse IT experiences in more than 50 countries that range from solving mid-flight IT issues for the Prime Minister on his RAAF Aircraft to collaborating with ASD on purple team operations.
+  Hi, I'm Luke and I'm an Infosec nerd.
+  I have nearly two decades of diverse IT experiences in more than 50 countries that range from solving mid-flight IT issues for the Prime Minister on his RAAF Aircraft to collaborating with ASD on purple team operations.
 
   I am most skilled in: <mark>Incident Handling</mark> and <mark>Customer Service</mark>
 
@@ -57,35 +58,35 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Home Sweet [Compromised] Home
+        link: github.com/lukey1000/BYOD
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: Bring Your Owned Device - Kill chain walkthrough
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: github.com/lukey1000/BYOD/Killchain
+          - title: Research Essay
+            icon: fab fa-github
+            url: github.com/lukey1000/BYOD/Essay
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Contextualising next generation social engineering threats for a university assignment.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I started this project as a way of proving that 'secure' BYOD systems have a blindspot: the home of the user. 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Office
-        link: oni
+        title: Federal Government
+        link: imnottelling.gov.au
         # link_text: boringcompany.com
         sub_title: Information Security Officer
         caption: October 2022 - Present
         quote: >
-          Ensuring that ONI's people, processes, and technology are defensible.
+          Ensuring that the departments people, processes, and technology are defensible.
         description: | # this will include new lines to allow paragraphs
             - Designed and led the security assessment activities required as part of the Authority to Operate process in line with NIST 800-37 and the ISM for a complex large scale Azure cloud project. Built rapport with stakeholders such as cloud engineers, project managers, and IT management to foster a collaborative project mindset, and modularised security testing to ensure that the highest and most urgent risks were tested and treated first. The project received ATO for production without security ever being the bottleneck to progress. 
-            - Led threat detection engineering activities during a significant purple team assessment operation in collaboration with ACSC’s Cyber Maturity team, recording all malicious activities in a super timeline and ensuring that all findings were mitigated, preventable or detectable. This was achieved with a combination of Sentinel/Defender KQL queries, converting Sigma and Yara rules for ArcSight ESM compatibility. 
+            - Led threat detection engineering activities during a significant purple team assessment operation in collaboration with ASDs Cyber Maturity team, recording all malicious activities in a super timeline and ensuring that all findings were mitigated, preventable or detectable. This was achieved with a combination of <mark>Sentinel</mark>/Defender KQL queries, and converting Sigma and Yara rules for ArcSight ESM compatibility. 
             - Deployed custom honeypots to detect stealthy bloodhound scans, Kerberoasting and DCSync Attacks, and popular windows privilege escalation scripts and techniques such as PowerUp, and designed future strategies for the implementation of canaries. 
 
   - title: Education # Title for the section
