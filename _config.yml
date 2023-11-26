@@ -56,7 +56,7 @@ content:
      - layout: top-middle
        title: GIAC Experienced Incident Handler
        link: https://www.credly.com/badges/f19d9113-0125-47c0-bacd-1016e7e5d181/public_url
-       gxih_image: images/gxih.png
+       image: images/gxih.png
        quote: >
          The GIAC Experienced Incident Handler Certification (GX-IH) demonstrates a candidates superior incident response skills.
        
