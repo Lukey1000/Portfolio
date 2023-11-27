@@ -1,45 +1,41 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: Luke Brown
+title: Information Security Officer
+email: lukeandrewbrown@gmail.com
+git: https://lukey1000.github.io/Portfolio/index.html
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#twitter_username: facespics
+github_username: lukey1000
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username: luke-brown-0567181b1
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
@@ -49,75 +45,103 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+# about_title: About Me
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Hi, I'm Luke and I'm an Infosec nerd.
+  I have nearly two decades of diverse IT experiences that range from solving mid-flight IT issues for the Prime Minister on his RAAF Aircraft to collaborating with ASD on purple team operations.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+      - layout: top-middle
+        title: Home Sweet [Compromised] Home
+        link: github.com/lukey1000/BYOD
+        # link_text: Project Website
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Bring Your Owned Device - Kill chain walkthrough
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            url: github.com/lukey1000/BYOD/Killchain
+          - title: Research Essay
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: github.com/lukey1000/BYOD/Essay
         quote: >
-          Short overview of the project (optional)
+          Contextualising next generation social engineering threats for a university assignment.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
+          I started this project as a way of proving that 'secure' BYOD systems have a blindspot: the home of the user. 
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: Federal Government
+        link: .gov.au
+        # link_text: boringcompany.com
+        sub_title: Information Security Officer
+        caption: October 2022 - Present
         quote: >
-          Short description of the company (optional)
+          Ensuring that the departments people, processes, and technology are defensible.
         description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
+            - Designed and led the security assessment activities required as part of the Authority to Operate process for a large scale complex Azure Hybrid Cloud deployment. 
+            - Led threat detection engineering activities during a significant purple team assessment operation in collaboration with ASDs Cyber Maturity team. 
+            - Designed a honeypot strategy to detect stealthy bloodhound scans, Kerberoasting and DCSync Attacks, and website cloning attacks. 
+      - layout: left
+        title: Department of Prime Minister and Cabinet
+        link: pmc.gov.au
+        # link_text: boringcompany.com
+        sub_title: VIP IT Support Advisor to the Prime Minister's Office
+        caption: September 2013 - October 2022
+        quote: >
+          From Micronesia to Manhattan, I travelled the world with the Prime Minister's Office.
+        description: | # this will include new lines to allow paragraphs
+            - On more than 50 international visits I had sole responsibility for ensuring that any and all technical and communications problems were no longer problems. 
+            - Took direct calls from the Prime Minister at any time of day or night and provided immediate solutions to requests spanning Level 1 helpdesk to network and systems administration tasks. 
+            - Designed and implemented portable packet capture and intruder detection system capabilities based on Security Onion and PFSense that significantly enhanced the security posture of temporary overseas office setups.  
+      - layout: left
+        title: Older Stuff
+        link: archive.org
+        # link_text: boringcompany.com
+        sub_title: Service Desk Analyst > Desktop Support > System Administrator
+        caption: November 2007 - September 2013
+        quote: >
+          Worked my way from Service Desk to Sysadmin across multiple companies at the start of my career.
+        description: | # this will include new lines to allow paragraphs
+            - Upgraded the Canberra Hospital from Windows 2000 to XP.
+            - System Administrator for Lockheed Martin Australia at the ATO. 
+            - Became a superstar at talking nontechnical staff through phone based troubleshooting.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: left
+        title: UNSW Canberra @ ADFA
+        caption: 2023 - 2025
+        sub_title: Master of Cyber Security (Digital Forensics)
         quote: >
-          Short institution or course description (optional)
+          The Master of Cyber Security (Digital Forensics) at UNSW Canberra provides students with the knowledge, understanding and skills to enable the recovery of admissible evidence from digital media. Students will understand the ethical and legal issues associated with cybercrime investigations and develop decision-making tools to assess, evaluate and analyse digital data.
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          I'm greatly enjoying the research and deep thought on cyber topics that is encouraged in this degree.
+
+          I'm proud of the research I have undertaken on BYOD related vulnerabilities.
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      Some of my other interests and hobbies are:
+      - Brazilian Jiu Jitsu
+      - Powerlifting
+      - Cooking
+      - Yoga
+      - Skiing
+      - Learning Japanese
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
@@ -125,16 +149,3 @@ sass:
 
 plugins:
  - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
