@@ -52,12 +52,13 @@ about_content: | # this will include new lines to allow paragraphs
   I have nearly two decades of diverse IT experiences that range from solving mid-flight IT issues for the Prime Minister on his RAAF Aircraft to collaborating with ASD on purple team operations.
 
 content:
-  - title: Projects # Title for the section
+  - title: Certifications # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Home Sweet [Compromised] Home
-        link: github.com/lukey1000/BYOD
+        title: SANS
+        image: images/gxih.png
+        link: sans.org
         # link_text: Project Website
         additional_links:
           - title: Bring Your Owned Device - Kill chain walkthrough
