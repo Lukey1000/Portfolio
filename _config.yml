@@ -49,8 +49,8 @@ linkedin_username: luke-brown-0567181b1
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Luke and I'm an Infosec nerd.
-  I have nearly two decades of diverse IT experiences that range from solving mid-flight IT issues for the Prime Minister on his RAAF Aircraft to collaborating with ASD on purple team operations.
-
+  I've done a bunch of cool stuff like solving mid-flight IT issues for the Prime Minister on his RAAF Aircraft and collaborated with ASD on purple team operations.
+  Now I'm trying to learn more about git and web dev.
 content:
   - title: Certifications # Title for the section
     layout: list # Type of content section (list/text)
