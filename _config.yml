@@ -1,40 +1,45 @@
 # Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Luke Brown
-title: Information Security Specialist
-email: lukeandrewbrown@gmail.com
+name: Your Name
+title: Your job title
+email: Your email (optional)
+# email_title: Email (Email title override)
+phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-#twitter_username: 
-github_username: lukey1000
-# stackoverflow_username: 
-# dribbble_username: 
-# facebook_username: 
-# flickr_username: 
-#instagram_username: 
-linkedin_username: luke-brown-0567181b1
-# xing_username: 
-# pinterest_username: 
-#youtube_username: 
-# googleplus_username: 
-# orcid_username: 
+twitter_username: jekyllrb
+github_username:  jekyll
+stackoverflow_username: "00000001"
+dribbble_username: jekyll
+facebook_username: jekyll
+flickr_username: jekyll
+instagram_username: jekyll
+linkedin_username: jekyll
+xing_username: jekyll
+pinterest_username: jekyll
+youtube_username: jekyll
+orcid_username: 0000-0000-0000-0000
+googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+additional_links:
+- title: Link name
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: Link url (eg. https://google.com)
 # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
@@ -44,13 +49,16 @@ linkedin_username: luke-brown-0567181b1
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
-about_profile_image: images/gxih.png
+# about_title: About Me (Use this to override about section title)
+about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Luke, and I'm an Infosec nerd.
-  I have nearly two decades of diverse IT experiences, and I've worked everywhere from Micronesia to Manhattan.
-  I've solved IT issues for the Prime Minister while mid-flight on RAAF Aircraft and collaborated with ASD on purple team cyber operations.
-  This project is for me to get more familiar with git, webdev, and ruby.
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+    - Lists
+    - Tables
+    - <a href="google.com">Links</a>
+    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
@@ -86,8 +94,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           Description of role
   - title: Education
-      layout: list
-      content:
+    layout: list
+    content:
       - layout: top-right
         title: Institution name
         sub_title: Qualifications (eg. BA Performing Arts)
@@ -108,7 +116,8 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -116,3 +125,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
