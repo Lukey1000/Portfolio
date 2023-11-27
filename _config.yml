@@ -52,16 +52,8 @@ about_content: | # this will include new lines to allow paragraphs
   I've solved IT issues for the Prime Minister while mid-flight on RAAF Aircraft and collaborated with ASD on purple team cyber operations.
   This project is for me to get more familiar with git, webdev, and ruby.
 
-content:
-  - title: Certifications # Title for the section
-    content:
-     - layout: top-middle
-       title: GIAC Experienced Incident Handler
-       image: images/gxih.png
-       quote: >
-         The GIAC Experienced Incident Handler Certification (GX-IH) demonstrates a candidates superior incident response skills.
-       
-   - title: Education # Title for the section
+
+- title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
