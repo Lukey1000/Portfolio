@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: lukey1000/Portfolio
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -9,7 +9,6 @@ version: 2
 name: Luke Brown
 title: Information Security Officer
 email: lukeandrewbrown@gmail.com
-git: https://lukey1000.github.io/Portfolio/index.html
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -52,9 +51,8 @@ about_content: | # this will include new lines to allow paragraphs
   I've had an incredibly rewarding career making problems with technology go away, some highlights include:
   - Setting up a temporary office for the prime minister inside a castle in the UK during COVID. Seriously, those castle designers could have included some ethernet ports in the walls.
   - The privilege of attending ANZAC day at Gallipoli in Turkey in 2015, and Amiens in France in 2018, as part of the Australian Delegation. 
-  - Being the blue half of a 3 week purple team operation with ASD.
-  
-  The purpose of this site is to experiment with and expose myself to DevSecOps, Git, and various webdev technologies.
+    
+  The purpose of this site is to experiment with and expose myself to DevSecOps, Git, and various webdev technologies like Ruby on Rails.
 
 content:
   - title: Education # Title for the section
@@ -65,12 +63,8 @@ content:
         title: UNSW Canberra @ ADFA
         caption: 2023 - 2025
         sub_title: Master of Cyber Security (Digital Forensics)
-        quote: >
-          The Master of Cyber Security (Digital Forensics) at UNSW Canberra provides students with the knowledge, understanding and skills to enable the recovery of admissible evidence from digital media. Students will understand the ethical and legal issues associated with cybercrime investigations and develop decision-making tools to assess, evaluate and analyse digital data.
         description: | # this will include new lines to allow paragraphs
-          I'm greatly enjoying the research and deep thought on cyber topics that is encouraged in this degree.
-
-          I'm proud of the research I have undertaken on BYOD related vulnerabilities.
+          I'm greatly enjoying the deep thought on cybersecurity required to excel in this program.
           
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
