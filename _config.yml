@@ -65,26 +65,36 @@ content:
         sub_title: Master of Cyber Security (Digital Forensics)
         description: | # this will include new lines to allow paragraphs
           I'm greatly enjoying the deep thought on cybersecurity required to excel in this program.
+
+          [Semester 1 2023] - Cyber Defence: Network Security Operations   [Distinction]
+          [Semester 2 2023] - Cyber Offence: Threats and Opportunities     [Distinction]  
+          [Semester 2 2023] - Secure Software Design Lifecycle        [High Distinction]
+          [Semester 1 2024] - Reverse Engineering
+          [Semester 1 2024] - Network and Memory Forensics
+          [Semester 2 2024] - Wireless, Mobile, and IOT Security
+          [Semester 2 2024] - Digital Forensics
+          [Semester 1 2025] - Information Assurance and Security
+   
           
-  - title: Projects # Title for the section
+  - title: Certifications # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: SANS
-        image: images/gxih.png
-        link: sans.org
-        # link_text: Project Website
-        #additional_links:
-        #  - title: Bring Your Owned Device - Kill chain walkthrough
-        #    icon: fab fa-github
-        #    url: github.com/lukey1000/BYOD/Killchain
+        title: SANS / GIAC
+        link: https://www.giac.org/certified-professional/Luke-Brown/199859
+        link_text: My GIAC profile
+        additional_links:
+          - title: Credly
+            icon: fa fa-solid fa-link
+            url: github.com/lukey1000/BYOD/Killchain
         #  - title: Research Essay
         #    icon: fab fa-github
         #    url: github.com/lukey1000/BYOD/Essay
-        quote: >
-          Contextualising next generation social engineering threats for a university assignment.
+        #quote: >
+        #  Contextualising next generation social engineering threats for a university assignment.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way of proving that 'secure' BYOD systems have a blindspot: the home of the user. 
+          Proud to be GX-IH #346 and have GCIH, GCED, and GSEC.
+          Aiming for GX-CS, GCFA, GCFE, GCFA, and GX-FA to complete my GSE. 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
