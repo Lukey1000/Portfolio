@@ -46,13 +46,33 @@ linkedin_username: luke-brown-0567181b1
 
 # About Section
 # about_title: About Me
-about_profile_image: images/gxih.png
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Luke and I'm an Infosec nerd.
-  I've done a bunch of cool stuff like solving mid-flight IT issues for the Prime Minister on his RAAF Aircraft and collaborated with ASD on purple team operations.
-  Now I'm trying to learn more about git and web dev.
+  Hi, I'm Luke and I'm an Infosec nerd, currently employed as an Information Security Officer with a federal government department.
+  I've had an incredibly rewarding career making problems with technology go away, some highlights include:
+  - Setting up a temporary office for the prime minister inside a castle in the UK during COVID. Seriously, those castle designers could have included some ethernet ports in the walls.
+  - The privilege of attending ANZAC day at Gallipoli in Turkey in 2015, and Amiens in France in 2018, as part of the Australian Delegation. 
+  - Being the blue half of a 3 week purple team operation with ASD.
+  
+  The purpose of this site is to experiment with and expose myself to DevSecOps, Git, and various webdev technologies.
+
 content:
-  - title: Certifications # Title for the section
+- title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        image: images/UNSW.png
+        title: UNSW Canberra @ ADFA
+        caption: 2023 - 2025
+        sub_title: Master of Cyber Security (Digital Forensics)
+        quote: >
+          The Master of Cyber Security (Digital Forensics) at UNSW Canberra provides students with the knowledge, understanding and skills to enable the recovery of admissible evidence from digital media. Students will understand the ethical and legal issues associated with cybercrime investigations and develop decision-making tools to assess, evaluate and analyse digital data.
+        description: | # this will include new lines to allow paragraphs
+          I'm greatly enjoying the research and deep thought on cyber topics that is encouraged in this degree.
+
+          I'm proud of the research I have undertaken on BYOD related vulnerabilities.
+          
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -60,13 +80,13 @@ content:
         image: images/gxih.png
         link: sans.org
         # link_text: Project Website
-        additional_links:
-          - title: Bring Your Owned Device - Kill chain walkthrough
-            icon: fab fa-github
-            url: github.com/lukey1000/BYOD/Killchain
-          - title: Research Essay
-            icon: fab fa-github
-            url: github.com/lukey1000/BYOD/Essay
+        #additional_links:
+        #  - title: Bring Your Owned Device - Kill chain walkthrough
+        #    icon: fab fa-github
+        #    url: github.com/lukey1000/BYOD/Killchain
+        #  - title: Research Essay
+        #    icon: fab fa-github
+        #    url: github.com/lukey1000/BYOD/Essay
         quote: >
           Contextualising next generation social engineering threats for a university assignment.
         description: | # this will include new lines to allow paragraphs
@@ -112,29 +132,17 @@ content:
             - System Administrator for Lockheed Martin Australia at the ATO. 
             - Became a superstar at talking nontechnical staff through phone based troubleshooting.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: UNSW Canberra @ ADFA
-        caption: 2023 - 2025
-        sub_title: Master of Cyber Security (Digital Forensics)
-        quote: >
-          The Master of Cyber Security (Digital Forensics) at UNSW Canberra provides students with the knowledge, understanding and skills to enable the recovery of admissible evidence from digital media. Students will understand the ethical and legal issues associated with cybercrime investigations and develop decision-making tools to assess, evaluate and analyse digital data.
-        description: | # this will include new lines to allow paragraphs
-          I'm greatly enjoying the research and deep thought on cyber topics that is encouraged in this degree.
-
-          I'm proud of the research I have undertaken on BYOD related vulnerabilities.
+  
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Some of my other interests and hobbies are:
-      - Brazilian Jiu Jitsu
-      - Powerlifting
-      - Cooking
+      - Brazilian Jiu Jitsu (Beginner)
+      - Powerlifting (Elite)
+      - Cooking (Intermediate)
       - Yoga
-      - Skiing
+      - Skiing ()
       - Learning Japanese
 
 # Footer
