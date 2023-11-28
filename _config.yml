@@ -56,6 +56,25 @@ about_content: | # this will include new lines to allow paragraphs
   The purpose of this site is to experiment with and expose myself to DevSecOps, Git, and various webdev technologies like Ruby on Rails.
 
 content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Infosec Goodies
+        link: github.com/lukey1000/Infosec-Goodies
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A collection of useful queries and tools that I have written or adapted for my own usage.
+        #description: | # this will include new lines to allow paragraphs
+        # Hello
+        
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -65,6 +84,11 @@ content:
         sub_title: Master of Cyber Security (Digital Forensics)
         description: | # this will include new lines to allow paragraphs
           I'm greatly enjoying the deep thought on cybersecurity required to excel in this program.
+          - Cyber Defence Network Security Operations [Distinction]
+          - Cyber Offence Threats and Opportunities   [High Distinction]
+          - Secure Software Design Lifecycle          [High Distinction]
+          - Reverse Engineering                       [Sem 1 24]
+          - Network and Memory Forensics              [Sem 1 24]
    
   - title: Certifications # Title for the section
     layout: list # Type of content section (list/text)
