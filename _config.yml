@@ -88,16 +88,9 @@ content:
         sub_title: Master of Cyber Security (Digital Forensics)
         description: | # this will include new lines to allow paragraphs
           I'm greatly enjoying the deep thought on cybersecurity required to excel in this program.
-          | Course                                       | Grade               | Semester  |
-          | -------------------------------------------- | ------------------- | --------- |
-          | Cyber Defence Network Security Operations    | Distinction         |           |
-          | Cyber Offence Threats and Opportunities      | High Distinction    |           |
-          | Secure Software Design Lifecycle             | High Distinction    |           |
-          | Reverse Engineering                          | Sem 1 24            |           |
-          | Network and Memory Forensics                 | Sem 1 24            |           |
-          | Digital Forensics                            | Sem 2 24            |           |
-          | Wireless, Mobile, and Internet of Things     | Sem 2 24            |           |
-          | Information Assurance                        | Sem 1 25            |           |
+          Highlights so far include:
+          - A semester spent researching BYOD vulnerabilities and developing a proof of concept for a website cloning credential stealer.
+          - Developing a futuristic Scrum model that replaced the Scrum Master with an AI.
    
   - title: Certifications # Title for the section
     layout: list # Type of content section (list/text)
