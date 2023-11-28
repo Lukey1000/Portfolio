@@ -77,7 +77,7 @@ content:
           I've got so many certifications there's no point. I'm proudest of being GIAC Experienced Incident Handler #346. Current Goals
           - CISSP. Exam in December 2023.
           - CISA. This + CISSP would make me eligible for IRAP.
-          - GIAC Security Expert. 3 more GSE level exams, 3 more certs.
+          - GIAC Security Expert. Just need to pass 3 more GSE level exams, and complete 3 more certs.
           - Azure Security Architect Expert. Whenever I can be bothered to study for it.
           - OSCP. Whenever I get a spare 2 days with no interruptions.
 
@@ -86,7 +86,7 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: benbalter/retlab
 
 sass:
   sass_dir: _sass
