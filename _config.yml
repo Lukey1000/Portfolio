@@ -59,7 +59,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        image: images/UNSW.png
         title: UNSW Canberra @ ADFA
         caption: 2023 - 2025
         sub_title: Master of Cyber Security (Digital Forensics)
@@ -73,24 +72,13 @@ content:
         title: Certifications are stupid but they keep me focused
         link: https://www.giac.org/certified-professional/Luke-Brown/199859
         link_text: My GIAC Professional Page
-        description: |
+        description: | # this will include new lines to allow paragraphs
           I've got so many certifications there's no point. I'm proudest of being GIAC Experienced Incident Handler #346. Current Goals
           - CISSP. Exam in December 2023.
           - CISA. This + CISSP would make me eligible for IRAP.
           - GIAC Security Expert. 3 more GSE level exams, 3 more certs.
           - Azure Security Architect Expert. Whenever I can be bothered to study for it.
           - OSCP. Whenever I get a spare 2 days with no interruptions.
-
-   - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Some of my other interests and hobbies are:
-      - Brazilian Jiu Jitsu
-      - Weightlifting
-      - Cooking
-      - Yoga
-      - Skiing
-      - Learning Japanese
 
 # Footer
 footer_show_references: true
