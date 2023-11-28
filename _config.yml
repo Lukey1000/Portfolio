@@ -45,7 +45,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/Lukey.png
+# about_profile_image: images/Lukey.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Luke and I'm an Infosec nerd, currently employed as an Information Security Officer with a federal government department. You can download my CV with the button above.
   I've had an incredibly rewarding career that boils down to making problems go away, some highlights include:
