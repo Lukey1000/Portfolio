@@ -90,20 +90,23 @@ content:
           - A semester spent researching BYOD vulnerabilities and developing a proof of concept for a website cloning credential stealer.
           - Developing a futuristic Scrum model that replaced the Scrum Master with an AI.
    
-  - title: Certifications # Title for the section
+  - title: Development Goals # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Opinions vary on certifications but they keep me focused
+        title: Industry Certifications
+        caption: Studying for certifications keeps me focused
         link: https://www.giac.org/certified-professional/Luke-Brown/199859
         link_text: My GIAC Professional Page
         description: | # this will include new lines to allow paragraphs
-          I've got a ridiculous number of current and expired certs. I'm proudest of being GIAC Experienced Incident Handler #346. Below are my next development goals.
+          GIAC AB | GSEC | GCED | GCIH | GX-IH | AZ-104 | AZ-500 | SC-200 | ITIL v3 | MHFA
+        
+          I'm proudest of being GIAC Experienced Incident Handler #346. Below are my next development goals.
           - CISSP. Exam in December 2023.
-          - CISA. This + CISSP would make me eligible for IRAP.
-          - GIAC Security Expert. Just need to pass 3 more GSE level exams, and complete 3 more certs.
+          - CISA. This + CISSP would make me eligible for IRAP. Early - mid 2024.
+          - GIAC Security Expert. Several years down the track, to get there I need: GX-CS, GCFE, GCFA, GX-FA, GCIA, GX-IA.
           - Azure Security Architect Expert. Early 2024.
-          - OSCP. Whenever I get a spare 2 days with no interruptions.
+          - OSCP. Late 2024.
 
 # Footer
 footer_show_references: true
