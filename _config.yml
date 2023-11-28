@@ -47,9 +47,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/Lukey.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Luke and I'm an Infosec nerd, currently employed as an Information Security Officer with a federal government department.
-  I've had an incredibly rewarding career making problems with technology go away, some highlights include:
-  - Setting up a temporary office for the prime minister inside a castle in the UK during COVID. Seriously, those castle designers could have included some ethernet ports in the walls.
+  Hi, I'm Luke and I'm an Infosec nerd, currently employed as an Information Security Officer with a federal government department. You can download my CV with the button above.
+  I've had an incredibly rewarding career that boils down to making problems go away, some highlights include:
+  - Setting up a temporary office for the Australian Prime Minister inside a castle in the UK during COVID. Seriously, those castle designers could have included some ethernet ports in the walls.
   - The privilege of attending ANZAC Day ceremonies at Amiens in France in 2018.
   - Collaborating with ASD as the blue half of an extensive purple team operation. 
     
@@ -63,10 +63,10 @@ content:
         title: Infosec Goodies
         link: github.com/lukey1000/Infosec-Goodies
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
