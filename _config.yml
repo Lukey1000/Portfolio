@@ -94,7 +94,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Certifications are stupid but they keep me focused
+        title: Opinions vary on certifications but they keep me focused
         link: https://www.giac.org/certified-professional/Luke-Brown/199859
         link_text: My GIAC Professional Page
         description: | # this will include new lines to allow paragraphs
