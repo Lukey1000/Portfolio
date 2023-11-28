@@ -70,10 +70,14 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          A collection of useful queries and tools that I have written or adapted for my own usage.
-        #description: | # this will include new lines to allow paragraphs
-        # Hello
+        #quote: >
+          #
+        description: | # this will include new lines to allow paragraphs
+          A collection of useful queries and tools that I have written or adapted for my own usage including:
+          - KQL Queries for Defender
+          - ArcSight Logger Queries
+          - Powershell Scripts
+          - Bash and Python Scripts
         
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
