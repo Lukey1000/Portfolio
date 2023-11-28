@@ -14,24 +14,24 @@ email: lukeandrewbrown@gmail.com
 darkmode: false
 
 # Social links
-#twitter_username: facespics
+#twitter_username: jekyll
 github_username: lukey1000
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-#instagram_username: jameswgrant
+#instagram_username: jekyll
 linkedin_username: luke-brown-0567181b1
 # xing_username: jekyll
 # pinterest_username: jekyll
-#youtube_username: globalmtb
+#youtube_username: jekyll
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
 - title: Download my CV
-  icon: fa-solid fa-file-arrow-down
+  icon: fas fa-file-arrow-down
   url: https://drive.google.com/file/d/10HosDVIv3K9uG5cof6eixYhuk1AbbS_z/view?usp=sharing
 # - title: 
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
