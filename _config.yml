@@ -30,8 +30,8 @@ linkedin_username: luke-brown-0567181b1
 
 # Additional icon links
 additional_links:
-- title: Download_CV
-  icon: fab fa-creative-commons-nd
+- title: Download my CV
+  icon: fas fa-download
   url: https://drive.google.com/file/d/10HosDVIv3K9uG5cof6eixYhuk1AbbS_z/view?usp=sharing
 # - title: 
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
