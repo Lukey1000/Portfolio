@@ -29,11 +29,11 @@ linkedin_username: luke-brown-0567181b1
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-# - title: another link
+additional_links:
+- title: Download my CV
+  icon: fas file-arrow-down
+  url: https://www.itsgoingto.be
+# - title: 
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
@@ -45,7 +45,7 @@ linkedin_username: luke-brown-0567181b1
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/Lukey.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, I'm Luke and I'm an Infosec nerd, currently employed as an Information Security Officer with a federal government department.
   I've had an incredibly rewarding career making problems with technology go away, some highlights include:
@@ -70,69 +70,26 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: SANS / GIAC
+        title: Certifications are stupid but they keep me focused
         link: https://www.giac.org/certified-professional/Luke-Brown/199859
         link_text: My GIAC Professional Page
-        quote: >
-          GX-IH, GCIH, GCED, GSEC. Next: GCFA
-    content:
-      - layout: left
-        title: Cloud
-        quote: >
-          Azure Administrator, Security Engineer, and Security Operations. Next: Security Architect
-         
+        description: |
+        I've got so many certifications there's no point. I'm proudest of being GIAC Experienced Incident Handler #346. Current Goals:
+        - CISSP. Exam in December 2023.
+        - CISA. This + CISSP would make me eligible for IRAP.
+        - GIAC Security Expert. 3 more GSE level exams, 3 more certs.
+        - Azure Security Architect Expert. Whenever I can be bothered to study for it.
+        - OSCP. Whenever I get a spare 2 days with no interruptions.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Federal Government
-        link: .gov.au
-        # link_text: boringcompany.com
-        sub_title: Information Security Officer
-        caption: October 2022 - Present
-        quote: >
-          Ensuring that the departments people, processes, and technology are defensible.
-        description: | # this will include new lines to allow paragraphs
-            - Designed and led the security assessment activities required as part of the Authority to Operate process for a large scale complex Azure Hybrid Cloud deployment. 
-            - Led threat detection engineering activities during a significant purple team assessment operation in collaboration with ASDs Cyber Maturity team. 
-            - Designed a honeypot strategy to detect stealthy bloodhound scans, Kerberoasting and DCSync Attacks, and website cloning attacks. 
-      - layout: left
-        title: Department of Prime Minister and Cabinet
-        link: pmc.gov.au
-        # link_text: boringcompany.com
-        sub_title: VIP IT Support Advisor to the Prime Minister's Office
-        caption: September 2013 - October 2022
-        quote: >
-          From Micronesia to Manhattan, I travelled the world with the Prime Minister's Office.
-        description: | # this will include new lines to allow paragraphs
-            - On more than 50 international visits I had sole responsibility for ensuring that any and all technical and communications problems were no longer problems. 
-            - Took direct calls from the Prime Minister at any time of day or night and provided immediate solutions to requests spanning Level 1 helpdesk to network and systems administration tasks. 
-            - Designed and implemented portable packet capture and intruder detection system capabilities based on Security Onion and PFSense that significantly enhanced the security posture of temporary overseas office setups.  
-      - layout: left
-        title: Older Stuff
-        link: archive.org
-        # link_text: boringcompany.com
-        sub_title: Service Desk Analyst > Desktop Support > System Administrator
-        caption: November 2007 - September 2013
-        quote: >
-          Worked my way from Service Desk to Sysadmin across multiple companies at the start of my career.
-        description: | # this will include new lines to allow paragraphs
-            - Upgraded the Canberra Hospital from Windows 2000 to XP.
-            - System Administrator for Lockheed Martin Australia at the ATO. 
-            - Became a superstar at talking nontechnical staff through phone based troubleshooting.
-
-  
-
-  - title: A Little More About Me
+   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Some of my other interests and hobbies are:
-      - Brazilian Jiu Jitsu (Beginner)
-      - Powerlifting (Elite)
-      - Cooking (Intermediate)
+      - Brazilian Jiu Jitsu
+      - Weightlifting
+      - Cooking
       - Yoga
-      - Skiing ()
+      - Skiing
       - Learning Japanese
 
 # Footer
