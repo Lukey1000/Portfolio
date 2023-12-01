@@ -47,13 +47,13 @@ additional_links:
 # about_title: About Me
 # about_profile_image: images/Lukey.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Luke and I'm an Infosec nerd, currently employed as an Information Security Officer with a federal government department. You can download my CV with the button above.
-  I've had an incredibly rewarding career that boils down to making problems go away, some highlights include:
+  Hi, I'm Luke and I'm currently employed as an Information Security Officer with a federal government department in Canberra. You can download my CV with the button above.
+  I've had an incredibly rewarding career in IT and Security, some highlights include:
   - Setting up a temporary office for the Australian Prime Minister inside a castle in the UK during COVID. Seriously, those castle designers could have included some ethernet ports in the walls.
   - The privilege of attending ANZAC Day ceremonies at Amiens in France in 2018.
   - Collaborating with ASD as the blue half of an extensive purple team operation.
 
-  The purpose of this site is partly ensuring that my familiarity with git, web development, and devops stays up to date, and also because I really need to start saving all the cool scripts I write somewhere central.
+  The purpose of this site is partly ensuring that my familiarity with git, web development, and devops stays up to date, and also because I really need to start centrally saving all the cool scripts I write.
   I'm also planning to upload my obsidian notes from pentesting here for easy access and sync. 
 
 content:
