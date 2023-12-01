@@ -104,11 +104,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           GSEC | GCED | GCIH | GX-IH | AZ-104 | AZ-500 | SC-200 | ITIL v3 | MHFA |
         
-          I'm proudest of being GIAC Experienced Incident Handler #346. Below are my next development goals.
+          I'm proudest of being GIAC Experienced Incident Handler #346. Below are my immediate development goals.
           - CISSP. Exam in December 2023.
-          - CISA. This + CISSP would make me eligible for IRAP. Early - mid 2024.
-          - GIAC Security Expert. Several years down the track, to get there I need: GX-CS, GCFE, GCFA, GX-FA, GCIA, GX-IA.
-          - Azure Security Architect Expert. Early 2024.
+          - GX-CS and GSP in December 2023.
+          - Azure SC-100 and SC-300. Early 2024.
           - OSCP. Late 2024.
 
 # Footer
