@@ -47,14 +47,10 @@ additional_links:
 # about_title: About Me
 # about_profile_image: images/Lukey.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Luke and I'm currently employed as an Information Security Officer with a federal government department in Canberra. You can download my CV with the button above.
-  I've had an incredibly rewarding career in IT and Security, some highlights include:
-  - Setting up a temporary office for the Australian Prime Minister inside a castle in the UK during COVID. Seriously, those castle designers could have included some ethernet ports in the walls.
-  - The privilege of attending ANZAC Day ceremonies at Amiens in France in 2018.
-  - Collaborating with ASD as the blue half of an extensive purple team operation.
+  Hi, I'm Luke and I'm an infosec nerd.
 
   The purpose of this site is partly ensuring that my familiarity with git, web development, and devops stays up to date, and also because I really need to start centrally saving all the cool scripts I write.
-  I'm also planning to upload my obsidian notes from pentesting here for easy access and sync. 
+  I'm also planning to upload some of my obsidian notes from pentesting here for easy access and sync. 
 
 content:
   - title: Projects # Title for the section
@@ -102,13 +98,13 @@ content:
         link: https://www.giac.org/certified-professional/Luke-Brown/199859
         link_text: My GIAC Professional Page
         description: | # this will include new lines to allow paragraphs
-          GSEC | GCED | GCIH | GX-IH | AZ-104 | AZ-500 | SC-200 | ITIL v3 | MHFA |
+          CISSP | GSEC | GCED | GCIH | GX-IH | SC-200 | ITIL v3
         
-          I'm proudest of being GIAC Experienced Incident Handler #346. Below are my immediate development goals.
-          - CISSP. Exam in December 2023.
+          I'm proudest of passing my CISSP, and being GIAC Experienced Incident Handler #346. Below are my immediate development goals.
           - GX-CS and GSP in December 2023.
-          - Azure SC-100 and SC-300. Early 2024.
-          - OSCP. Late 2024.
+          - CISA.
+          - Azure SC-100 and SC-300.
+          - OSCP.
 
 # Footer
 footer_show_references: true
