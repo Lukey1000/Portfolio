@@ -75,6 +75,7 @@ content:
           - ArcSight Logger Queries
           - Powershell Scripts
           - Bash and Python Scripts
+          - HTB notes and personal writeups
         
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -101,7 +102,6 @@ content:
           CISSP | GSEC | GCED | GCIH | GX-IH | SC-200 | ITIL v3
         
           I'm proudest of passing my CISSP, and being GIAC Experienced Incident Handler #346. Below are my immediate development goals.
-          - GX-CS and GSP in December 2023.
           - CISA.
           - Azure SC-100 and SC-300.
           - OSCP.
